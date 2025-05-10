@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Invito al nostro Matrimonio</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #ffffff;
+            color: #5a5043;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #d8cfc4;
+            color: #5a5043;
+            text-align: center;
+            padding: 40px 20px 20px 20px;
+        }
+
+        .galleria-header {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .galleria-header img {
+            width: 250px;  /* Tutte le immagini sono più grandi ora */
+            height: 150px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 3px solid #ffffff;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .galleria-header img:hover {
+            transform: scale(1.05);
+        }
+
+        .galleria-header .main-img {
+            width: 230px;  /* Immagine centrale più grande */
+            height: 350px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 10px 0 5px 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0 20px 0;
+        }
+
+        nav {
+            background-color: #f0eae4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #5a5043;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 30px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #d8cfc4;
+            padding-bottom: 10px;
+        }
+
+        footer {
+            background-color: #d8cfc4;
+            color: #5a5043;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        img.section-image {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="galleria-header">
+            <img src="foto1.jpg" alt="Foto 1">
+            <img src="foto2.jpg" alt="Foto 2">
+            <img src="foto3.jpg" alt="Foto 3" class="main-img">  <!-- Immagine centrale più grande -->
+            <img src="foto4.jpg" alt="Foto 4">
+            <img src="foto5.jpg" alt="Foto 5">
+        </div>
+        <h1>Daniele & Valeria</h1>
+        <p>Ci sposiamo! 5 Settembre 2025 a Marsala</p>
+    </header>
+
+    <nav>
+        <a href="#cerimonia">La Cerimonia</a>
+        <a href="#ricevimento">Il Ricevimento</a>
+        <a href="#marsala">Scopri Marsala</a>
+        <a href="#info">Info Utili</a>
+    </nav>
+
+    <section id="cerimonia">
+        <h2>La Cerimonia</h2>
+        <p>Ci uniremo in matrimonio presso il <strong>Santuario Maria Ss Addolorata di Marsala</strong> alle ore 15:30. Un luogo ricco di storia e bellezza, perfetto per celebrare il nostro giorno speciale insieme a voi.</p>
+        <img src="chiesa.jpg" alt="Chiesa di Marsala" class="section-image">
+    </section>
+
+    <section id="ricevimento">
+        <h2>Il Ricevimento</h2>
+        <p>Dopo la cerimonia, vi aspettiamo per festeggiare alla <strong>Villa Favorita</strong>, una delle ville storiche più belle della Sicilia, circondata da un magnifico parco con palme, agrumi e alberi secolari.</p>
+        <img src="favorita.jpg" alt="Villa Favorita" class="section-image">
+    </section>
+
+    <section id="marsala">
+        <h2>Scopri Marsala</h2>
+        <p>Approfittate del weekend per esplorare le meraviglie della città:</p>
+        <ul>
+            <li><strong>Centro Storico</strong>: stradine affascinanti, chiese e palazzi antichi.</li>
+            <li><strong>Le Cantine</strong>: degustazioni del famoso vino Marsala.</li>
+            <li><strong>Lo Stagnone</strong>: saline, mulini a vento e l’isola di Mozia.</li>
+            <li><strong>Spiagge</strong>: relax al mare e tramonti indimenticabili.</li>
+            <li><strong>Isole Egadi</strong>: Favignana, Levanzo e Marettimo: un paradiso naturale.</li>
+            <li><strong>Erice</strong>: borgo medievale con vista spettacolare sulla costa.</li>
+            <li><strong>Riserva dello Zingaro</strong>: natura incontaminata e sentieri sul mare.</li>
+        </ul>
+        <img src="marsala.jpg" alt="Veduta di Marsala" class="section-image">
+    </section>
+
+    <section id="info">
+        <h2>Info Utili</h2>
+        <p>Per chi arriva da fuori città, consigliamo di prenotare per tempo. Per supporto su viaggio o soggiorno, contattateci!</p>
+    </section>
+
+    <footer>
+        <p>Con amore, Daniele & Valeria | <em>Non vediamo l’ora di festeggiare con voi!</em></p>
+    </footer>
+</body>
+</html>
+
+
